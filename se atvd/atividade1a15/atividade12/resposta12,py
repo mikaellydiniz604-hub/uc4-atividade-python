@@ -1,0 +1,8 @@
+distância = float(input(" Distância em km: "))
+
+valor = 180
+
+if distância > 10:
+    valor += 25 
+
+print("Total a pagar: R$", valor)
